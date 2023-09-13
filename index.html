@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hostel booking </title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+<link rel="stylesheet" href="booking.css">
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid " style=" background-color: rgb(29, 10, 35);">
+            <div class="col-md-2">
+
+            </div>
+            <a class="navbar-brand" href="index.html"><img src="holidify-logo.svg" height="80px" width="100px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <div class="col-md-2">
+
+                </div>
+                <div class="col-md-2">
+
+                </div>
+                <div class="col-md-2 ">
+
+                </div>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a style="margin-left: 50px;" class="nav-link active" aria-current="page"
+                            href="index.html "></a>
+                        <button>Home </button>
+                    </li>
+                    <li class="nav-item">
+                        <a style="margin-left: 110px;" class="nav-link" href="joint_as_agunt.html"></a>
+                        <button>joint_as_agunt</button>
+                    </li>
+                    <li class="nav-item">
+                        <a style="margin-left: 90px;" class="nav-link" href="login.html"></a>
+                        <select name="name" id="user">
+                            <option value="Login">Login</option>
+                            <a href="login.html">Login</a>
+                            <option value="Registaion">Registaion</option>
+                            <a href="registaion.html">Registaion</a>
+                        </select>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img style="height: 500px; width: 100px;" src="slider-1.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img style="height: 500px;" src="slider-2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img style="height: 500px;" src="slider-3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <hr>
+    <div class="row bg ">
+        <div class="col-md-2">
+
+        </div>
+        <div class="col-md-6 heder">
+
+            <p>Explore the world with Holidify</p>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Special Offers </h5>
+                            <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+                            <a href="#" class="btn btn-primary">Packages</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Hotels</h5>
+                            <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+                            <a href="#" class="btn btn-primary">Booking</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Explore</h5>
+                            <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+                            <a href="#" class="btn btn-primary">Places</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col top">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="hanimoon img.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Honeymoon Places..</h5>
+                            <p class="card-text">Best Honeymoon Plcees in The World</p>
+                            <a style="color: black;" href="#">More Details</a>
+                        </div>
+
+                    </div>
+
+                    <!-- <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="beach & resorts.jpeg" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Beach & Resorts</h5>
+                                    <p class="card-text">A Private Beach? stay at these Luxurious Resorts in the world..
+                                    </p> -->
+                    <!-- <p class="card-text"><small class="text-muted">More details</small></p> -->
+                    <!-- <a href="#">More Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="world cup.jpeg" class="img-fluid rounded-start" alt="...">
+                            </div> -->
+                    <!-- <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">World Cup</h5>
+                                    <p class="card-text">Attend the Cricket Asia Cup with a Tour to Australia</p> -->
+                    <!-- <p class="card-text"><small class="text-muted">more details</small></p>? -->
+                    <!-- <a href="#">More Details</a>
+                                </div>
+                            </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+    </div>
+
+
+    <div class="row bg1">
+        <div class="col-md-2">
+
+        </div>
+        <div class="col-md-6 heder1">
+            <p style="color: black;">Countries you can explore :</p>
+            <hr>
+            <div class="comtainer   ">
+                <div class="row col-md-12 ">
+                    <div class="col-md-3 ">
+                        <a style="text-decoration: none; color: black;" href="#"><img src="maldevis img.png"
+                                height="150px" width="150px" alt="">Maldives</a>
+
+                    </div>
+                    <div class="col-md-3">
+                        <a style="text-decoration: none;color: black;" href=""> <img src="india img.jpg" height="150px"
+                                width="150px" alt="">India</a>
+                    </div>
+                    <div class="col-md-3">
+                        <a style="text-decoration: none;color: black;" href=""> <img src="dubai img.jpeg" height="150px"
+                                width="150px" alt="">Dubai</a>
+                    </div>
+                    <div class="col-md-3">
+                        <a style="text-decoration: none;color: black;" href=""> <img src="indonasia.jpg" height="150px"
+                                width="150px" alt="">Indonasia</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="col-md-4">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="beach & resorts.jpeg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Beach & Resorts</h5>
+                            <p class="card-text">A Private Beach? stay at these Luxurious Resorts in the world..
+                            </p>
+                            <p class="card-text"><small class="text-muted"></small></p>
+                            <a style="color: black;" href="#">More Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="world cup.jpeg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">World Cup</h5>
+                            <p class="card-text">Attend the Cricket Asia Cup with a Tour to Australia</p>
+                            <p class="card-text"><small class="text-muted"></small></p>
+                            <a style="color: black;" href="#">More Details</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+            <hr>
+            <hr>
+            <div class="contener-fluid footer">
+                <div class="row">
+                    <div class="col-md-2">
+
+                    </div>
+                    <div class="col-md-2 img">
+                        <div class="img">
+                            <img src="holidify-logo.svg" alt=""><br><br>
+                        </div>
+                        <div class="home  login">
+                            <a style="text-decoration: none;" href="#">Home</a><br>
+                            <a style="text-decoration: none;" href="#">Login</a><br>
+                            <a style="text-decoration: none;" href="#">joint_as_agunt</a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 explore">
+                        <h5 style="color: wheat;">Explore Holidify</h5>
+                        <a href="#">Packages</a><br>
+                        <a href="#">Hotels</a><br>
+                        <a href="#">Destination</a><br>
+                        <a href="#">Collections</a>
+                    </div>
+                    <div class="col-md-2 currency">
+                        <select>
+                            <option value="Cuntry">Currency</option>
+                            <option value="IN">₹ INR</option>
+                            <option value="US">$ USD</option>
+                            <option value="GB">£ GBP</option>
+                            <option value="AE">د.إ AED</option>
+                            <option value="FR">€ EUR</option>
+                        </select><br><br><br><br><br><br>
+                        <h5 style="color: wheat;">Follow Us</h5>
+                        <img src="facebook (1).svg" style="margin-left: 10px;" alt="">
+                        <img src="youtube (1).svg" style="margin-left: 10px;" alt="">
+                        <img src="twitter (1).svg" style="margin-left: 10px;" alt="">
+                    </div>
+                    <div class="col-md-2 agunt">
+                        <h4 style="color: rgba(245, 222, 179, 0.69); margin-top: 50px;">Travel Agent?</h4><br>
+                        <a href="#">Buy Travel Leads</a><br>
+                        <p style="color: rgba(255, 255, 255, 0.367);">(100% phone and email verified leads for holiday
+                            package)
+                        </p>
+
+                    </div>
+                    <div class="col-md-2 more">
+                        <h5 style="color: rgba(245, 222, 179, 0.6); margin-top: 50px;">More On Holidify</h5>
+                        <a href="#">About Us</a><br>
+                        <a href="#">Write For Us</a><br>
+                        <a href="#">Terms</a><br>
+                        <a href="#">privecy</a>
+
+                    </div>
+                </div>
+            </div>
+
+
+</body>
+
+</html>

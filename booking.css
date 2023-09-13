@@ -1,0 +1,61 @@
+.heder{
+    /* margin-top: 50px; */
+    font-size: larger;
+    font: bold 20px;
+    font-size: xx-large;
+    height: 20px;
+
+}
+
+.cart1{
+    display: flex;
+    flex-direction: row;
+}
+.heder1{
+   
+    font-size: xx-large;
+    margin-bottom: 200px;
+
+}
+.heder2{
+    height: 200px;
+    width: 200px;
+}
+.links{
+    text-decoration: none;
+}
+.bg{
+    background-color: rgba(37, 10, 26, 0.629);
+}
+.bg1{
+    background-color:  rgba(37, 10, 26, 0.629);
+}
+.top{
+    margin-top: 65px;
+    
+}
+.footer{
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.763);
+    
+  
+}
+.img{
+    margin-top: 20px;
+}
+
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+.h{
+    color: wheat;
+}
+.explore{
+    margin-top: 60px;
+}
+.currency{
+    margin-top: 60px;
+}
